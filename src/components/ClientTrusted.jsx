@@ -15,13 +15,13 @@ export function ClientTrusted() {
               Clientes que confiam em nós
             </h2>
             <div className="mx-auto mt-6 grid grid-cols-2 flex items-start  gap-x-8 gap-y-10 sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:grid-cols-4" >
-              <Image
+              {/* <Image
                 className="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1"
                 src={neoDigital}
                 alt="NeoDigital"
                 width={158}
                 height={48}
-              />
+              /> */}
               <Image
                 className="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1"
                 src={feito}
