@@ -9,7 +9,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
-import Logo from '../images/logos/LeadderLogo.png'
+import Logo from '@/images/logos/LeadderLogo.png'
 
 import { NavLink } from '@/components/NavLink'
 

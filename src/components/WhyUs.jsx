@@ -9,7 +9,7 @@ import {
 
 import Image from 'next/image'
 
-import grouSteps from '../images/logos/group4Steps.png'
+import grouSteps from '@/images/logos/group4Steps.png'
 
 export function WhyUs() {
   return (

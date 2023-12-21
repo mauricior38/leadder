@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import CarlaPhoto from '../images/avatars/CarlaPhoto.png'
-import LeonardoPhoto from '../images/avatars/LeonardoPhoto.png'
-import SebreaLogo from '../images/logos/SebraeLogo.png'
+
+import CarlaPhoto from '@/images/avatars/CarlaPhoto.png'
+import LeonardoPhoto from '@/images/avatars/LeonardoPhoto.png'
+import SebreaLogo from '@/images/logos/SebraeLogo.png'
 
 const people = [
   {

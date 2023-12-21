@@ -1,12 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-//ClientTrusted.jsx
 
 import Image from 'next/image'
 
-import neoDigital from '../images/logos/neoDigital.png';
-import feito from '../images/logos/feito.png';
-import startta from '../images/logos/startta.png';
-import genessis from '../images/logos/genesis.png';
+import neoDigital from '@/images/logos/neoDigital.png';
+import feito from '@/images/logos/feito.png';
+import startta from '@/images/logos/startta.png';
+import genessis from '@/images/logos/genesis.png';
 
 export function ClientTrusted() {
     return (
