@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 
-import neodigital from '@/images/logos/neoDigital.png';
+import neodigital from '@/images/logos/ndigital.png';
 import feito from '@/images/logos/feito.png';
 import startta from '@/images/logos/startta.png';
 import genessis from '@/images/logos/genesis.png';
