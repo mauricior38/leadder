@@ -8,7 +8,7 @@ import genessis from '@/images/logos/genesis.png';
 
 export function ClientTrusted() {
     return (
-      <div className="bg-white p-14 sm:py-20">
+      <section id="trusted" className="bg-white p-14 sm:py-20">
         <div className="mx-auto max-w-7xl  lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none ">
             <h2 className="text-2xl font-semibold leading-8 text-slate-900 ">
@@ -47,7 +47,7 @@ export function ClientTrusted() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
   

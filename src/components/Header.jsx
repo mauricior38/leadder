@@ -21,10 +21,6 @@ function MobileNavLink({ href, children }) {
   )
 }
 
-function whatsApp() {
-  alert('teste agora do botão')
-}
-
 function MobileNavIcon({ open }) {
   return (
     <svg
@@ -86,13 +82,12 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 "
           >
+
             <MobileNavLink href="#team">Sobre nós</MobileNavLink>
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
+            <MobileNavLink href="#features">O que fazemos</MobileNavLink>
+            <MobileNavLink href="#trusted">Nossos clientes</MobileNavLink>
+            <MobileNavLink href="#whyus">Porque nós?</MobileNavLink>
+            <MobileNavLink href="#howitworks">Como funciona?</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -112,9 +107,9 @@ export function Header() {
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#team">Sobre nós</NavLink>
               <NavLink href="#features">O que fazemos</NavLink>
-
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#trusted">Nossos clientes</NavLink>
+              <NavLink href="#whyus">Porque nós?</NavLink>
+              <NavLink href="#howitworks">Como funciona?</NavLink>
             </div>
           </div>
 
@@ -122,17 +117,19 @@ export function Header() {
             <Button
               className="w-200"
               color="whatsApp"
-              onClick={() => whatsApp()}
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5511911110140"
             >
               <span>
                 Vamos conversar <span className="hidden lg:inline">hoje</span>
               </span>
+
               <Image
                 className="ml-3 w-6"
                 width={1}
                 height={1}
                 src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"
-                alt=""
+                alt="logo WhatsApp"
               />
             </Button>
           </div>

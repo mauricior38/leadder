@@ -3,42 +3,39 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Tab } from '@headlessui/react'
-import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 
 const features = [
   {
-    name: 'Planejamento orçamentário.',
+    name: 'Planejamento orçamentário: ',
     description:
-      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+      'Essa prática auxilia na tomada de decisões estratégicas, promovendo o equilíbrio entre receitas e despesas.',
     // icon: CloudArrowUpIcon,
   },
   {
-    name: 'Controle de Fluxo de Caixa.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'Controle de Fluxo de Caixa: ',
+    description: 'Essa ferramenta proporciona visibilidade sobre a liquidez, permite antecipar desafios financeiros e embasa decisões estratégicas para garantir a saúde financeira da organização.',
     // icon: LockClosedIcon,
   },
   {
-    name: 'Gestão do Contas a Pagar e Contas a Receber.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Gestão do Contas a Pagar e Contas a Receber: ',
+    description: ' Envolve o controle eficiente dos compromissos a serem quitados e das receitas a serem recebidas.',
     // icon: ServerIcon,
   },
   {
-    name: 'Conciliação Bancária.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Conciliação Bancária: ',
+    description: 'processo de comparação entre os registros financeiros da empresa e os extratos bancários, visando identificar e corrigir eventuais divergências.',
     // icon: ServerIcon,
   },
   {
-    name: 'Emissão de Notas Fiscais.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Emissão de Notas Fiscais: ',
+    description: 'Esses documentos atestam a legalidade das operações, detalham produtos ou serviços, e são cruciais para o cumprimento de obrigações fiscais.',
     // icon: ServerIcon,
   },
   {
-    name: 'Elaboração de Relatórios Financeiros.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Elaboração de Relatórios Financeiros: ',
+    description: 'Processo crucial na comunicação de informações financeiras de uma empresa. Esses relatórios fornecem análises detalhadas sobre o desempenho financeiro, facilitando a tomada de decisões estratégicas. ',
     // icon: ServerIcon,
   },
 ]
@@ -82,11 +79,10 @@ export function Features() {
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">O que a Leadder Faz</p>
-              <dl className="mt-2 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <dl className="mt-14 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-bold text-[#202741]">
-                      {/* <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" /> */}
                       {feature.name}
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>

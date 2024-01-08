@@ -28,8 +28,7 @@ export function Hero() {
         descomplicada.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-neutral-400 text-lg lg:text-neutral-400 mb-20">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+        Tenha profissionais capacitados para a gestão financeira da sua empresa. Tenha tranquilidade para você cuidar do que realmente precisa, do seu negócio.
       </p>
 
       
