@@ -65,12 +65,9 @@ export function Features() {
       className="relative overflow-hidden py-8"
     >
       <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%] object-cover"
         src={backgroundImage}
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
+        alt="background Section"
       />
       <Container className="relative">
 

@@ -28,7 +28,7 @@ export function Hero() {
         descomplicada.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-neutral-400 text-lg lg:text-neutral-400 mb-20">
-        Tenha profissionais capacitados para a gestão financeira da sua empresa. Tenha tranquilidade para você cuidar do que realmente precisa, do seu negócio.
+        Tenha tranquilidade para você cuidar do que realmente precisa, do seu negócio.
       </p>
 
       
