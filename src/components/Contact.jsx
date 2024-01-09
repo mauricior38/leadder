@@ -33,7 +33,7 @@ const form = useRef();
               Deixe sua mensagem
             </h1>
 
-            <div className="mt-10 flex flex-wrap gap-8 px-20 lg:flex-nowrap">
+            <div className="mt-10 flex flex-wrap gap-8 lg:flex-nowrap">
               <div className="w-full">
                 <div className="sm:col-span-4">
                   <label
