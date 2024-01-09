@@ -88,6 +88,7 @@ function MobileNavigation() {
             <MobileNavLink href="#trusted">Nossos clientes</MobileNavLink>
             <MobileNavLink href="#whyus">Porque nós?</MobileNavLink>
             <MobileNavLink href="#howitworks">Como funciona?</MobileNavLink>
+            <MobileNavLink href="#contact">Contato</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -110,6 +111,7 @@ export function Header() {
               <NavLink href="#trusted">Nossos clientes</NavLink>
               <NavLink href="#whyus">Porque nós?</NavLink>
               <NavLink href="#howitworks">Como funciona?</NavLink>
+              <NavLink href="#contact">Contato</NavLink>
             </div>
           </div>
 

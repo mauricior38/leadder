@@ -12,6 +12,7 @@ import { ClientTrusted } from '@/components/ClientTrusted'
 import { HowItWorks } from '@/components/HowItWorks'
 import { WhyUs } from '@/components/WhyUs'
 import { Steps } from '@/components/Steps'
+import { Contact } from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
         <WhyUs />
         <HowItWorks />
         <Steps />
+        <Contact />
+
+
         <link
           rel="stylesheet"
           href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"

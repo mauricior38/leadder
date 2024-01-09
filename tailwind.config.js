@@ -33,5 +33,5 @@ module.exports = {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin],
+  plugins: [formsPlugin, headlessuiPlugin, require('@tailwindcss/forms'),],
 }
