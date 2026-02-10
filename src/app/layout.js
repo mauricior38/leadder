@@ -30,11 +30,20 @@ export const metadata = {
     siteName: "Leadder",
     locale: "pt_BR",
     type: "website",
+    images: [
+      {
+        url: "https://www.leadder.com.br/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Leadder — BPO Financeiro",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Leadder — BPO Financeiro",
     description: "Sua gestão financeira descomplicada. BPO Financeiro de excelência para empresas que buscam crescimento com segurança.",
+    images: ["https://www.leadder.com.br/og-image.png"],
   },
 };
 
