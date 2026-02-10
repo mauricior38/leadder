@@ -17,10 +17,24 @@ const lexend = Lexend({
 
 export const metadata = {
   title: "Leadder — BPO Financeiro",
-  description: "Leadder — BPO Financeiro. Sua gestão financeira descomplicada. Confiança, previsibilidade e tranquilidade para o seu negócio.",
-  keywords: "BPO Financeiro, Gestão Financeira, Leadder, Contas a Pagar, Contas a Receber, Fluxo de Caixa",
+  description: "Sua gestão financeira descomplicada. BPO Financeiro de excelência para empresas que buscam crescimento com segurança.",
+  keywords: "BPO Financeiro, Gestão Financeira, Leadder, Contas a Pagar, Contas a Receber, Fluxo de Caixa, Conciliação Bancária",
+  metadataBase: new URL("https://www.leadder.com.br"),
   icons: {
     icon: "/LeadderLogo.png",
+  },
+  openGraph: {
+    title: "Leadder — BPO Financeiro",
+    description: "Sua gestão financeira descomplicada. BPO Financeiro de excelência para empresas que buscam crescimento com segurança.",
+    url: "https://www.leadder.com.br",
+    siteName: "Leadder",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Leadder — BPO Financeiro",
+    description: "Sua gestão financeira descomplicada. BPO Financeiro de excelência para empresas que buscam crescimento com segurança.",
   },
 };
 
